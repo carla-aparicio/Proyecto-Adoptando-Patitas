@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <h2>Complete el siguiente formulario:</h2>
+    <form action="" id="contenido" class="activo">
+        <h2>Datos Personales</h2>
+        <p><label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required>
+        </p>
+        <p><label for="apellido">Apellido</label>
+        <input type="text" id="apellido" required>
+        </p>
+        <p><label for="Email">Email</label>
+        <input type="email" id="email" required>
+        </p>
+        <p><label for="telefono">Teléfono</label>
+        <input type="text" id="telefono" required></p>
+        <button type="submit">siguiente</button>
+    </form>
+    <form action="" class="desactivo">
+        <h2>¿Qué mascota quieres adoptar?</h2>
+        <p><label>Eliga su mascota</label>
+        <select id="mascota">
+            <option value="">-</option>
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+        </select></p>
+        <p><label>Quiero adoptar:</label>
+        <select id="raza">
+            <option value="">-</option>
+            <option value="adulto">Adulto</option>
+            <option value="cachorro">Cachorro</option>
+        </select></p>
+        <p><label>Tamaño:</label>
+        <select id="tamaño">
+            <option value="">-</option>
+            <option value="chico">Chico</option>
+            <option value="mediano">Mediano</option>
+            <option value="grande">Grande</option>
+        </select></p>
+        <p><label>Sexo:</label>
+        <select id="sexo">
+            <option value="">-</option>
+            <option value="macho">Macho</option>
+            <option value="hembra">Hembra</option>
+        </select></p>
+        <button type="submit">enviar</button>
+    </form>
+
+    
+</body>
+</html>
