@@ -12,6 +12,6 @@ function siguienteFormulario(event) {
 }
 function mostrarResultado() {
     var nombre = document.getElementById("nombre");
-    alert("hola " + nombre.value + "nos pondremos en contacto con vos para concretar la adopción");
+    alert("hola " + nombre.value + " nos pondremos en contacto con vos para concretar la adopción");
 
 }

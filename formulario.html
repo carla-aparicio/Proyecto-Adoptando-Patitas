@@ -1,64 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Adoptando Patitas/ESTILO/formu.css">
-    <script type="text/javascript" src="mains.js"></script> <!--a-->
+    <link rel="stylesheet" href="./estilos.css">
+    <script type="text/javascript" src="main.js"></script>
 
     <title>Formulario</title>
 </head>
+
 <body>
-    <iframe src="index.html"></iframe> 
+    <iframe src="index.html"></iframe>
     <h1>Formulario</h1>
     <h2>Complete el siguiente formulario:</h2>
 
     <form>
         <div id="contenido" class="activo">
-        <h2>Datos Personales</h2>
-        <p><label for="nombre">Nombre</label>
-        <input type="text" id="nombre" required>
-        </p>
-        <p><label for="apellido">Apellido</label>
-        <input type="text" id="apellido" required>
-        </p>
-        <p><label for="Email">Email</label>
-        <input type="email" id="email" required>
-        </p>
-        <p><label for="telefono">Teléfono</label>
-        <input type="text" id="telefono" required></p>
-        <button type="button" onclick="siguienteFormulario(event)">siguiente</button>
-    </div>
-    <div id="formularioMascota" class="desactivo">
-        <h2>¿Qué mascota quieres adoptar?</h2>
-        <p><label>Elija su mascota</label>
-        <select id="mascota">
-            <option value="">-</option>
-            <option value="perro">Perro</option>
-            <option value="gato">Gato</option>
-        </select></p>
-        <p><label>Quiero adoptar:</label>
-        <select id="raza">
-            <option value="">-</option>
-            <option value="adulto">Adulto</option>
-            <option value="cachorro">Cachorro</option>
-        </select></p>
-        <p><label>Tamaño:</label>
-        <select id="tamaño">
-            <option value="">-</option>
-            <option value="chico">Chico</option>
-            <option value="mediano">Mediano</option>
-            <option value="grande">Grande</option>
-        </select></p>
-        <p><label>Sexo:</label>
-        <select id="sexo">
-            <option value="">-</option>
-            <option value="macho">Macho</option>
-            <option value="hembra">Hembra</option>
-        </select></p>
-        <button onclick="mostrarResultado();" type="button">enviar</button>
-    </div>
+            <h2>Datos Personales</h2>
+            <p><label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+            </p>
+            <p><label for="apellido">Apellido</label>
+                <input type="text" id="apellido" required>
+            </p>
+            <p><label for="Email">Email</label>
+                <input type="email" id="email" required>
+            </p>
+            <p><label for="telefono">Teléfono</label>
+                <input type="text" id="telefono" required>
+            </p>
+            <button type="button" onclick="siguienteFormulario(event)">siguiente</button>
+        </div>
+        <div id="formularioMascota" class="desactivo">
+            <h2>¿Qué mascota quieres adoptar?</h2>
+            <p><label>Elija su mascota</label>
+                <select id="mascota">
+                    <option value="">-</option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                </select> 
+            </p>
+            <p><label>Quiero adoptar:</label>
+                <select id="raza">
+                    <option value="">-</option>
+                    <option value="adulto">Adulto</option>
+                    <option value="cachorro">Cachorro</option>
+                </select>
+            </p>
+            <p><label>Tamaño:</label>
+                <select id="tamaño">
+                    <option value="">-</option>
+                    <option value="chico">Chico</option>
+                    <option value="mediano">Mediano</option>
+                    <option value="grande">Grande</option>
+                </select>
+            </p>
+            <p><label>Sexo:</label>
+                <select id="sexo">
+                    <option value="">-</option>
+                    <option value="macho">Macho</option>
+                    <option value="hembra">Hembra</option>
+                </select>
+            </p>
+            <button onclick="mostrarResultado();" type="button">enviar</button>
+        </div>
     </form>
-    
+
 </body>
+
 </html>
+
