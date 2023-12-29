@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./estilos.css">
-    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script type="text/javascript" src="./js/main.js"></script>
 
     <title>Formulario</title>
 </head>
@@ -13,12 +13,20 @@
 <body>
     <!-- voy a comentar el iframe
     <iframe src="index.html"></iframe> -->
-    <nav>
-        <ul>
-            <li> <a href = "./inicio.html"> Inicio </a> </li>
-            <li> <a href="./quienes somos.html"> Quienes somos </a></li>
-        </ul>
-    </nav>
+    <header>
+        <div class="logo">
+            <img src="./imagenes/logo1.png" alt="Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><button id="inicio"> <a href="inicio.html"> Inicio </a> </button>  </li>
+            <li><button id="quienesSomos"> <a href="./quienes somos.html"> Quiénes Somos </a> </button></li>
+            <li><button id="adopciones"> <a href="./formulario.html"> Adopciones </a> </button></li>
+            <li><button id="donar"> <a href="./donar.html">Donar </a>> </button></li>
+          </ul>
+        </nav>
+    </header>
+      
     <h1>Adopta uno de nuestros rescatados</h1>
     <h2>Completa el siguiente formulario:</h2>
 
